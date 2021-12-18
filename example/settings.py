@@ -49,11 +49,6 @@ TEMPLATES = [
     },
 ]
 
-TEMPLATE_MINIFIER = True
-TEMPLATE_MINIFIER_EXCLUDED_DIRS = ("admin/", "wagtailadmin/")
-TEMPLATE_MINIFIER_FILENAME_EXTENSIONS = (".html", ".htm")
-TEMPLATE_MINIFIER_STRIP_FUNCTION = False
-
 WSGI_APPLICATION = "example.wsgi.application"
 
 
